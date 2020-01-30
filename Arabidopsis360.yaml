@@ -1,0 +1,71 @@
+#######################################################################
+## Raw Data
+#######################################################################
+raw_data: /home/ycth8/data/projects/HAPPI_GWAS/raw_data/Arabidopsis_360/06_19_2019_Arabidopsis_360_FAA_GluFam_Gln_ratios_MLE.csv
+by_column:
+- 1
+- 2
+start_column: 3
+
+#######################################################################
+## BLUP or BLUE
+#######################################################################
+BLUP: /home/ycth8/data/projects/HAPPI_GWAS/BLUP_BLUE/Arabidopsis_360/12_10_2019_Arabidopsis_360_FAA_GluFam_Gln_ratios_MLE_BLUP.csv
+BLUP_by_column:
+- 1
+BLUP_start_column: 2
+
+#######################################################################
+## Gapit3
+#######################################################################
+GAPIT_kinship_matrix:
+GAPIT_covariates:
+GAPIT_hapmap:
+GAPIT_genotype_data_numeric:
+GAPIT_genotype_map_numeric:
+GAPIT_hapmap_file_extension:
+GAPIT_genotype_data_numeric_file_extension: txt
+GAPIT_genotype_map_numeric_file_extension: txt
+GAPIT_hapmap_filename:
+GAPIT_genotype_data_numeric_filename: Call_Method_75_GD
+GAPIT_genotype_map_numeric_filename: IMPORTANT_Call_Method_75_GM
+GAPIT_genotype_file_path: /home/ycth8/data/projects/HAPPI_GWAS/reference_files/Arabidopsis_360/GAPIT/GD_GM_files/
+GAPIT_genotype_file_named_sequentially_from: 1
+GAPIT_genotype_file_named_sequentially_to: 4
+GAPIT_model:
+# - GLM
+# - MLM
+# - MLMM
+# - SUPER
+ - FarmCPU
+GAPIT_SNP_MAF: 0.05
+GAPIT_PCA_total: 3
+GAPIT_Model_selection: TRUE
+GAPIT_SNP_test: TRUE
+GAPIT_file_output: TRUE
+GAPIT_p_value_threshold: 4.67e-8
+GAPIT_p_value_fdr_threshold:
+GAPIT_LD_number: 5000
+
+#######################################################################
+## Haploview
+#######################################################################
+Haploview_file_path: /home/ycth8/data/projects/HAPPI_GWAS/reference_files/Arabidopsis_360/GAPIT/SNP_matrix/
+Haploview_file_name: Chr
+Haploview_file_extension: txt
+Haploview_file_named_sequentially_from: 1
+Haploview_file_named_sequentially_to: 5
+
+#######################################################################
+## Match Gene Start and Stop
+#######################################################################
+GFF_file_path: /home/ycth8/data/projects/HAPPI_GWAS/reference_files/Arabidopsis_360/GAPIT/Gene_gff_separated_by_chromosome/
+GFF_file_name: Chr
+GFF_file_extension: txt
+GFF_file_named_sequentially_from: 1
+GFF_file_named_sequentially_to: 5
+
+#######################################################################
+## Output Directory
+#######################################################################
+output: ../output/01_30_2020_output_Arabidopsis_360
