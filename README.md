@@ -1,5 +1,5 @@
 # HAPPI_GWAS
-A genome-wide association study (GWAS) tool written in R.
+A genome-wide association study (GWAS) tool written in R
 
 ## Usage
 1. Clone the repository: git clone https://github.com/angelovicilab/HAPPI_GWAS.git
