@@ -10,7 +10,7 @@ start_column: 3
 #######################################################################
 ## BLUP or BLUE
 #######################################################################
-BLUP: ../BLUP_BLUE/Arabidopsis_1001/FAA_GWAS1001_BLUE2.csv
+BLUP: ../BLUP_BLUE/Arabidopsis_1001/FAA_GWAS1001_BLUE_less2.csv
 BLUP_by_column:
 - 1
 BLUP_start_column: 2
