@@ -19,26 +19,26 @@ update.packages(ask=FALSE, checkBuilt = TRUE)
 
 ## Install Packages
 <ul style="list-style-type:square">
-  <li>install.packages("dplyr")</li>
-  <li>install.packages("tidyr")</li>
-  <li>install.packages("ggplot2")</li>
-  <li>install.packages("tibble")</li>
-  <li>install.packages("stringr")</li>
-  <li>install.packages("gplots")</li>
-  <li>install.packages("ape")</li>
-  <li>install.packages("BiocManager")</li>
-  <li>install.packages("car")</li>
-  <li>install.packages("data.table")</li>
-  <li>install.packages("DataCombine")</li>
-  <li>install.packages("EMMREML")</li>
-  <li>install.packages("foreach")</li>
-  <li>install.packages("doParallel")</li>
-  <li>install.packages("lme4")</li>
-  <li>install.packages("scatterplot3d")</li>
-  <li>install.packages("genetics")</li>
-  <li>install.packages("LDheatmap")</li>
-  <li>install.packages("gridExtra")</li>
-  <li>install.packages("yaml")</li>
+  <li>install.packages("dplyr", dependencies = TRUE)</li>
+  <li>install.packages("tidyr", dependencies = TRUE)</li>
+  <li>install.packages("ggplot2", dependencies = TRUE)</li>
+  <li>install.packages("tibble", dependencies = TRUE)</li>
+  <li>install.packages("stringr", dependencies = TRUE)</li>
+  <li>install.packages("gplots", dependencies = TRUE)</li>
+  <li>install.packages("ape", dependencies = TRUE)</li>
+  <li>install.packages("BiocManager", dependencies = TRUE)</li>
+  <li>install.packages("car", dependencies = TRUE)</li>
+  <li>install.packages("data.table", dependencies = TRUE)</li>
+  <li>install.packages("DataCombine", dependencies = TRUE)</li>
+  <li>install.packages("EMMREML", dependencies = TRUE)</li>
+  <li>install.packages("foreach", dependencies = TRUE)</li>
+  <li>install.packages("doParallel", dependencies = TRUE)</li>
+  <li>install.packages("lme4", dependencies = TRUE)</li>
+  <li>install.packages("scatterplot3d", dependencies = TRUE)</li>
+  <li>install.packages("genetics", dependencies = TRUE)</li>
+  <li>install.packages("LDheatmap", dependencies = TRUE)</li>
+  <li>install.packages("gridExtra", dependencies = TRUE)</li>
+  <li>install.packages("yaml", dependencies = TRUE)</li>
 </ul>
 
 ## Reminder

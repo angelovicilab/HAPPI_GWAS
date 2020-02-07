@@ -5,7 +5,7 @@ rm(list = ls())
 
 # Set repository so that required packages can be downloaded
 r = getOption("repos")
-r["CRAN"] = "https://cran.cnr.berkeley.edu/"
+r["CRAN"] = "https://cloud.r-project.org/"
 options(repos = r)
 
 
@@ -37,7 +37,7 @@ packages <- c("ape",
 # Check packages and install them if needed
 invisible(lapply(packages, FUN = function(x){
   if (!require(x, character.only = TRUE)) {
-    install.packages(x, dependencies = TRUE, repos = "https://cran.cnr.berkeley.edu/", lib = p)
+    install.packages(x, dependencies = TRUE, repos = "https://cloud.r-project.org/", lib = p)
     library(x, lib.loc = p, character.only = TRUE)
   }
 }))
