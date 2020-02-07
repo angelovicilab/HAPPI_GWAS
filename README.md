@@ -22,6 +22,8 @@ update.packages(ask=FALSE, checkBuilt = TRUE)
   <li>install.packages("dplyr")</li>
   <li>install.packages("tidyr")</li>
   <li>install.packages("ggplot2")</li>
+  <li>install.packages("tibble")</li>
+  <li>install.packages("stringr")</li>
   <li>install.packages("gplots")</li>
   <li>install.packages("ape")</li>
   <li>install.packages("BiocManager")</li>
