@@ -29,7 +29,7 @@ GAPIT_genotype_map_numeric_file_extension:
 GAPIT_hapmap_filename: Chr
 GAPIT_genotype_data_numeric_filename:
 GAPIT_genotype_map_numeric_filename:
-GAPIT_genotype_file_path: /home/ycth8/data/projects/HAPPI_GWAS/reference_files/Arabidopsis_1001/GAPIT/parsed_vcf_max_missing_80/hapmap/
+GAPIT_genotype_file_path: /home/ycth8/data/projects/HAPPI_GWAS/reference_files/genotype_files/Arabidopsis_1001/
 GAPIT_genotype_file_named_sequentially_from: 1
 GAPIT_genotype_file_named_sequentially_to: 5
 GAPIT_model:
@@ -50,7 +50,7 @@ GAPIT_LD_number: 5000
 #######################################################################
 ## Haploview
 #######################################################################
-Haploview_file_path: ../reference_files/Arabidopsis_1001/GAPIT/parsed_vcf_max_missing_80/haploview_txt/
+Haploview_file_path: ../reference_files/haploview_files/Arabidopsis_1001/
 Haploview_file_name: Chr
 Haploview_file_extension: haploview.txt
 Haploview_file_named_sequentially_from: 1
@@ -59,7 +59,7 @@ Haploview_file_named_sequentially_to: 5
 #######################################################################
 ## Match Gene Start and Stop
 #######################################################################
-GFF_file_path: ../reference_files/Arabidopsis_1001/GAPIT/parsed_vcf_max_missing_80/gene_gff/
+GFF_file_path: ../reference_files/gene_annotation_files/Arabidopsis_1001/
 GFF_file_name: Chr
 GFF_file_extension: txt
 GFF_file_named_sequentially_from: 1
@@ -68,4 +68,4 @@ GFF_file_named_sequentially_to: 5
 #######################################################################
 ## Output Directory
 #######################################################################
-output: ../output/02_04_2020_output_Arabidopsis_1001
+output: ../output/02_08_2020_output_Arabidopsis_1001
