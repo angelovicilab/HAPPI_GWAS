@@ -39,6 +39,13 @@ update.packages(ask=FALSE, checkBuilt = TRUE)
   <li>install.packages("LDheatmap", dependencies = TRUE)</li>
   <li>install.packages("gridExtra", dependencies = TRUE)</li>
   <li>install.packages("yaml", dependencies = TRUE)</li>
+  <li>install.packages("bigmemory", dependencies = TRUE)</li>
+  <li>install.packages("biganalytics", dependencies = TRUE)</li>
+  <li>BiocManager::install("Biobase", update = TRUE, ask = FALSE)</li>
+  <li>BiocManager::install("BiocGenerics", update = TRUE, ask = FALSE)</li>
+  <li>BiocManager::install("snpStats", update = TRUE, ask = FALSE)</li>
+  <li>BiocManager::install("multtest", update = TRUE, ask = FALSE)</li>
+  <li>BiocManager::install("zlibbioc", update = TRUE, ask = FALSE)</li>
 </ul>
 
 ## Reminder

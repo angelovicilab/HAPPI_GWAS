@@ -24,17 +24,20 @@ if(!dir.exists(p)){
 
 
 # Gather required packages
-packages <- c("ape",
-              "BiocManager",
-              "compiler", "car",
-              "data.table", "DataCombine",
-              "EMMREML",
-              "genetics", "gplots", "gridExtra",
-              "lme4", "LDheatmap",
-              "scatterplot3d",
-              "dplyr", "tidyr", "tibble", "ggplot2",
-              "yaml",
-              "foreach", "doParallel")
+packages <- c(
+    "ape",
+    "BiocManager",
+    "compiler", "car",
+    "data.table", "DataCombine",
+    "EMMREML",
+    "genetics", "gplots", "gridExtra",
+    "lme4", "LDheatmap",
+    "scatterplot3d",
+    "dplyr", "tidyr", "tibble", "ggplot2",
+    "yaml",
+    "foreach", "doParallel",
+    "bigmemory", "biganalytics"
+)
 
 # Check packages and install them if needed
 invisible(lapply(packages, FUN = function(x){
@@ -47,12 +50,12 @@ invisible(lapply(packages, FUN = function(x){
 
 
 # The packages here are from BiocManager
-bioc_packages <- c("zlibbioc", "snpStats", "multtest")
+bioc_packages <- c("Biobase", "BiocGenerics", "zlibbioc", "snpStats", "multtest")
 
 # Check packages and install them if needed
 invisible(lapply(bioc_packages, FUN = function(x){
   if (!require(x, character.only = TRUE)) {
-    BiocManager::install(x, lib.loc = p, lib = p)
+    BiocManager::install(x, lib.loc = p, lib = p, update = TRUE, ask = FALSE)
     library(x, lib.loc = p, character.only = TRUE)
   }
 }))
