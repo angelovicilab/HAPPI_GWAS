@@ -47,8 +47,3 @@ update.packages(ask=FALSE, checkBuilt = TRUE)
   <li>BiocManager::install("multtest", update = TRUE, ask = FALSE)</li>
   <li>BiocManager::install("zlibbioc", update = TRUE, ask = FALSE)</li>
 </ul>
-
-## Reminder
-Please run git pull on terminal before open or run the HAPPI_GWAS pipeline since this application is still being developed.
-
-
