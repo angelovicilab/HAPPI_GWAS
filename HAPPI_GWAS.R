@@ -73,8 +73,8 @@ source("http://www.zzlab.net/GAPIT/emma.txt")
 source("http://www.zzlab.net/FarmCPU/FarmCPU_functions.txt")
 
 # Import GAPIT
-# source("http://www.zzlab.net/GAPIT/gapit_functions.txt")
-source("http://www.zzlab.net/GAPIT/previous/gapit_functions20191105.txt")
+source("http://www.zzlab.net/GAPIT/gapit_functions.txt")
+# source("http://www.zzlab.net/GAPIT/previous/gapit_functions20191105.txt")
 
 # Source R files
 source("func_print_help.R")
