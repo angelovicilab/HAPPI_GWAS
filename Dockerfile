@@ -21,14 +21,11 @@ RUN apt update -y
 RUN apt-get update -y
 
 RUN cd /home/ && git clone https://github.com/angelovicilab/HAPPI_GWAS.git
+RUN rm -rf /home/HAPPI_GWAS/.git && rm -rf /home/HAPPI_GWAS/docker_setup.R
 
 WORKDIR /home/HAPPI_GWAS/
 
 COPY docker_setup.R /
+
 RUN Rscript /docker_setup.R
-
-RUN rm -rf /home/HAPPI_GWAS/.git
-RUN rm -rf /home/HAPPI_GWAS/docker_setup.R
-RUN rm -rf /docker_setup.R
-
 RUN Rscript setup.R
