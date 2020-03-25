@@ -1,3 +1,6 @@
-*
-
-!docker_setup.R
+.git
+.gitignore
+*.sh
+*.log
+*.xlsx
+*.temp.R

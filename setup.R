@@ -21,8 +21,6 @@ if(!dir.exists(p)){
 
 
 
-
-
 # Gather required packages
 packages <- c(
     "ape",
@@ -59,8 +57,6 @@ invisible(lapply(bioc_packages, FUN = function(x){
     library(x, lib.loc = p, character.only = TRUE)
   }
 }))
-
-
 
 
 
@@ -131,5 +127,3 @@ if (file.exists(file.path("..", filename))) {
 
 # Print some empty space
 cat(rep("\n", 3))
-
-
