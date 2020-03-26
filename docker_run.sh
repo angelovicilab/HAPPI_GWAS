@@ -5,4 +5,4 @@ gapit=$2
 extract_haplotype=$3
 search_genes=$4
 
-Rscript HAPPI_GWAS.R $yaml_file $gapit $extract_haplotype $search_genes
+cd /home/HAPPI_GWAS/ && Rscript HAPPI_GWAS.R $yaml_file $gapit $extract_haplotype $search_genes

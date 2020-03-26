@@ -20,6 +20,7 @@ RUN apt update -y
 RUN apt-get update -y
 
 RUN mkdir /home/HAPPI_GWAS
+RUN mkdir /data
 
 WORKDIR /home/HAPPI_GWAS/
 
@@ -28,4 +29,5 @@ COPY . /home/HAPPI_GWAS/
 RUN Rscript docker_setup.R
 RUN Rscript setup.R
 
-ENTRYPOINT [ "docker_run.sh" ]
+RUN chmod 777 -R /home/HAPPI_GWAS
+RUN chmod 777 -R /data
