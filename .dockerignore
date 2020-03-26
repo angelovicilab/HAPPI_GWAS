@@ -1,6 +1,6 @@
 .git
 .gitignore
-*.sh
 *.log
 *.xlsx
+*.temp.sh
 *.temp.R

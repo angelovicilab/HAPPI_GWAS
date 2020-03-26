@@ -1,8 +1,8 @@
-*.sh
 *.log
 *.csv
 *.xlsx
 *.pdf
 *.doc
 *.docx
+*.temp.sh
 *.temp.R

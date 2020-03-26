@@ -27,3 +27,5 @@ COPY . /home/HAPPI_GWAS/
 
 RUN Rscript docker_setup.R
 RUN Rscript setup.R
+
+ENTRYPOINT [ "docker_run.sh" ]
