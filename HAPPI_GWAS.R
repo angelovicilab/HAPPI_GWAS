@@ -67,14 +67,16 @@ print(names(loaded_packages$otherPkgs))
 
 
 # Import EMMA
-source("http://www.zzlab.net/GAPIT/emma.txt")
+source("emma.txt")
+# source("http://www.zzlab.net/GAPIT/emma.txt")
 
 # Import FarmCPU
-source("http://www.zzlab.net/FarmCPU/FarmCPU_functions.txt")
+source("FarmCPU_functions.txt")
+# source("http://www.zzlab.net/FarmCPU/FarmCPU_functions.txt")
 
 # Import GAPIT
-source("http://www.zzlab.net/GAPIT/gapit_functions.txt")
-# source("http://www.zzlab.net/GAPIT/previous/gapit_functions20191105.txt")
+source("gapit_functions.txt")
+# source("http://www.zzlab.net/GAPIT/gapit_functions.txt")
 
 # Source R files
 source("func_print_help.R")
