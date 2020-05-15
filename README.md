@@ -47,3 +47,6 @@ update.packages(ask=FALSE, checkBuilt = TRUE)
   <li>BiocManager::install("multtest", update = TRUE, ask = FALSE)</li>
   <li>BiocManager::install("zlibbioc", update = TRUE, ask = FALSE)</li>
 </ul>
+
+## Updates
+May 15, 2020: We have made changes to the tool and hosted it on https://github.com/Angelovici-Lab/HAPPI.GWAS. Please checkout the latest tool.
