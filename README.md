@@ -49,4 +49,5 @@ update.packages(ask=FALSE, checkBuilt = TRUE)
 </ul>
 
 ## Updates
-May 15, 2020: We have made changes to the tool and hosted it on https://github.com/Angelovici-Lab/HAPPI.GWAS. Please checkout the latest tool.
+May 15, 2020: 
+We have made changes to the tool and hosted it on https://github.com/Angelovici-Lab/HAPPI.GWAS. Please checkout the latest tool.
